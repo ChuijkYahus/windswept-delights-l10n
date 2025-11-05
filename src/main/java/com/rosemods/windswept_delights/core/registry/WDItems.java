@@ -26,7 +26,7 @@ public class WDItems {
     public static final RegistryObject<Item> MIMOSA_SOUP = HELPER.createItem("mimosa_soup", () -> new BowlFoodItem(PropertyUtil.food(WDFoods.MIMOSA_SOUP).craftRemainder(Items.BOWL).stacksTo(1)));
     public static final RegistryObject<Item> WILD_BERRY_POPSICLE = HELPER.createItem("wild_berry_popsicle", () -> new Item(PropertyUtil.food(WDFoods.WILD_BERRY_POPSICLE)));
     public static final RegistryObject<Item> WILD_BERRY_JUICE = HELPER.createItem("wild_berry_juice", () -> new DrinkableBottleItem(WDFoods.WILD_BERRY_JUICE));
-    public static final RegistryObject<Item> LAVENDER_SALAD = HELPER.createItem("lavender_salad", () -> new Item(PropertyUtil.food(WDFoods.LAVENDER_SALAD)));
+    public static final RegistryObject<Item> LAVENDER_SALAD = HELPER.createItem("lavender_salad", () -> new BowlFoodItem(PropertyUtil.food(WDFoods.LAVENDER_SALAD).craftRemainder(Items.BOWL).stacksTo(1)));
     public static final RegistryObject<Item> SNOW_CONE = HELPER.createItem("snow_cone", () -> new FoodRemainderItem(WindsweptBlocks.PINECONE::get, PropertyUtil.food(WDFoods.SNOW_CONE)));
     public static final RegistryObject<Item> MELON_SNOW_CONE = HELPER.createItem("melon_snow_cone", () -> new FoodRemainderItem(WindsweptBlocks.PINECONE::get, PropertyUtil.food(WDFoods.MELON_SNOW_CONE)));
     public static final RegistryObject<Item> PUMPKIN_SNOW_CONE = HELPER.createItem("pumpkin_snow_cone", () -> new FoodRemainderItem(WindsweptBlocks.PINECONE::get, PropertyUtil.food(WDFoods.PUMPKIN_SNOW_CONE)));
